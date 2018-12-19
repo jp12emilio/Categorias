@@ -17,7 +17,7 @@
 <?php
     for($i=0;$i<sizeof($mostrarCategoria);$i++) {
             ?>
-            <div><a class="btn" href="readgame.php?id=<?php echo $buscame[$i]['idjuego'] ?>">
+            <div><a class="btn" href="readgame.php?id=<?php echo $mostrarCategoria[$i]['idjuego'] ?>">
                     <?php echo $mostrarCategoria[$i]["nombre"] ?>
                     <?php echo $mostrarCategoria[$i]["precio"] ?>
                     <?php echo $mostrarCategoria[$i]["descripcion"] ?>
